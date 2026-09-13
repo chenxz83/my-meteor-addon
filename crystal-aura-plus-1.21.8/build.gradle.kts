@@ -5,6 +5,9 @@ plugins {
 val archivesBaseName = providers.gradleProperty("archives_base_name").get()
 val mavenGroup = providers.gradleProperty("maven_group").get()
 
+// Commit hash for update checking (set by CI via GITHUB_SHA, empty for local builds)
+val commit = providers.environmentVariable("GITHUB_SHA").orElse(providers.gradleProperty("commit")).getOrElse("")
+
 base {
     archivesName = archivesBaseName
     version = libs.versions.mod.version.get()
@@ -73,6 +76,14 @@ fun toMinecraftCompat(version: String): String {
 }
 
 tasks {
+    processResources {
+        inputs.property("commit", commit)
+
+        filesMatching("commit.txt") {
+            expand("commit" to commit)
+        }
+    }
+
     jar {
         inputs.property("archivesName", archivesBaseName)
 
