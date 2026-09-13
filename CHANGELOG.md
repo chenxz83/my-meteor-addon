@@ -15,7 +15,7 @@
 - Death Announcer（死亡播报）
 - Combat Log（战斗日志）
 - Auto Reply（自动回复，StarScript）
-- Highway Helper（高速助手，8 方向可选：X+/Z+/X-/Z-/X+Z+/X+Z-/X-Z+/X-Z-）
+- Highway Helper（高速助手，8 方向可选：X+/Z+/X-/Z-/X+Z+/X+Z-/X-Z+/X-Z-，支持配合自动走路/平飞挂机，可选自动避障按 A/D 绕开）
 - Anti-Piston（防活塞陷阱）
 - Explosion Preview（爆炸范围预览）
 
