@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "crystal-aura-plus",
   "version": "1.0.0-mc1.21.8",
-  "name": "\u6c34\u6676\u5149\u73af+ (Crystal Aura Plus)",
-  "description": "\u589e\u5f3a\u7248\u6c34\u6676\u5149\u73af\u3002\u57fa\u4e8e Meteor Client \u6c34\u6676\u5149\u73af (Crystal Aura) \u7684\u589e\u5f3a\u6a21\u5757\uff0c\u65b0\u589e\u5355\u76ee\u6807\u805a\u7126\u6a21\u5f0f\u3001\u76ee\u6807\u4f18\u5148\u7ea7\u3001\u667a\u80fd\u653e\u7f6e\uff08\u8df3\u8fc7\u65e0\u654c\u5e27\u76ee\u6807\uff09\u4ee5\u53ca HUD \u76ee\u6807\u4f24\u5bb3/\u8840\u91cf\u663e\u793a\u3002",
+  "name": "My Meteor Addon",
+  "description": "chenxz_Minecraft 的 Meteor Client 增强插件合集：增强水晶光环（含 3D 目标信息 HUD）、Crystal ESP、Kill Msg、AutoSign+、Totem Alert、Auto Pearl、Item ESP、背刺警报、水晶来袭预警、死亡播报、战斗日志、自动回复、Highway Helper（8 方向+自动避障）、防活塞陷阱、爆炸范围预览，共 16 个模块。",
   "authors": [
     "chenxz_Minecraft"
   ],

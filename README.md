@@ -1,6 +1,6 @@
-# 水晶光环+ (Crystal Aura Plus)
+# My Meteor Addon（原 水晶光环+ / Crystal Aura Plus）
 
-基于 **Meteor Client** 的 Minecraft **Fabric** 附加模组（Addon）。对 Meteor Client 自带的水晶光环（Crystal Aura）进行增强，并附带一整套 2b2t / 水晶 PVP 实用模块。
+基于 **Meteor Client** 的 Minecraft **Fabric** 附加模组（Addon）。对 Meteor Client 自带的水晶光环（Crystal Aura）进行增强，并附带一整套 2b2t / 水晶 PVP 实用模块。游戏内显示名为 **My Meteor Addon**（modid 仍为 `crystal-aura-plus`）。
 
 ## 支持版本
 

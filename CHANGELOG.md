@@ -28,6 +28,7 @@
 - Meteor 更新检测（getRepo + commit.txt 注入 GITHUB_SHA）
 - 全部设置中英双语说明
 - 作者：chenxz_Minecraft
+- 模组显示名更名为 **My Meteor Addon**（modid 与仓库名保持 crystal-aura-plus 不变）
 - 许可证：GPL-3.0
 
 ---

@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 
 /**
  * Colors the addon author name (aqua, like §b) on the title screen credits.
- * 给主界面「Crystal Aura Plus by 作者」里的作者名上色（§b 青色）。
+ * 给主界面「My Meteor Addon by 作者」里的作者名上色（§b 青色）。
  */
 @Mixin(TitleScreenCredits.class)
 public abstract class TitleScreenCreditsMixin {
