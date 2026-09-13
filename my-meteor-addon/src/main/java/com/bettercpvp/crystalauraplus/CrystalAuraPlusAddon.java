@@ -64,7 +64,7 @@ public class CrystalAuraPlusAddon extends MeteorAddon {
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("chenxz83", "crystal-aura-plus");
+        return new GithubRepo("chenxz83", "my-meteor-addon");
     }
 
     @Override

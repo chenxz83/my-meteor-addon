@@ -21,23 +21,23 @@ jobs:
 
       - name: Build 1.21.11
         run: chmod +x gradlew && ./gradlew build --no-daemon
-        working-directory: crystal-aura-plus
+        working-directory: my-meteor-addon
 
       - name: Build 1.21.8
         run: chmod +x gradlew && ./gradlew build --no-daemon
-        working-directory: crystal-aura-plus-1.21.8
+        working-directory: my-meteor-addon-1.21.8
 
       - name: Upload 1.21.11 jar
         uses: actions/upload-artifact@v4
         with:
-          name: crystal-aura-plus-1.21.11
-          path: crystal-aura-plus/build/libs/crystal-aura-plus-*.jar
+          name: my-meteor-addon-1.21.11
+          path: my-meteor-addon/build/libs/my-meteor-addon-*.jar
 
       - name: Upload 1.21.8 jar
         uses: actions/upload-artifact@v4
         with:
-          name: crystal-aura-plus-1.21.8
-          path: crystal-aura-plus-1.21.8/build/libs/crystal-aura-plus-*.jar
+          name: my-meteor-addon-1.21.8
+          path: my-meteor-addon-1.21.8/build/libs/my-meteor-addon-*.jar
 
   release:
     if: startsWith(github.ref, 'refs/tags/v')

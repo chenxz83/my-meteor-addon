@@ -28,7 +28,7 @@
 - Meteor 更新检测（getRepo + commit.txt 注入 GITHUB_SHA）
 - 全部设置中英双语说明
 - 作者：chenxz_Minecraft
-- 模组显示名更名为 **My Meteor Addon**（modid 与仓库名保持 crystal-aura-plus 不变）
+- 模组显示名更名为 **My Meteor Addon**，GitHub 仓库与项目目录更名为 **my-meteor-addon**（modid 仍为 crystal-aura-plus，jar 名随之变为 my-meteor-addon-*.jar）
 - 许可证：GPL-3.0
 
 ---
@@ -38,8 +38,8 @@
 > ⚠️ 以后加新模块/功能时，务必同步更新 README.md 和本文件的模块列表，并 git commit。
 
 ## 项目结构
-- `crystal-aura-plus/` = Minecraft **1.21.11** 版本
-- `crystal-aura-plus-1.21.8/` = Minecraft **1.21.8** 版本
+- `my-meteor-addon/` = Minecraft **1.21.11** 版本
+- `my-meteor-addon-1.21.8/` = Minecraft **1.21.8** 版本
 - 改完 1.21.11 后把 Java 文件复制到 1.21.8 项目，注意版本差异
 
 ## 两个版本的代码差异
@@ -63,8 +63,8 @@ $env:GRADLE_USER_HOME = 'D:\dsh-workspace\better-cpvp\.gradle-home'
 ```
 
 ## GitHub 推送（本机 git 被 SteamTools 劫持 22 端口）
-- 仓库：https://github.com/chenxz83/crystal-aura-plus
-- 远程走 443 端口：`ssh://git@ssh.github.com:443/chenxz83/crystal-aura-plus.git`
+- 仓库：https://github.com/chenxz83/my-meteor-addon
+- 远程走 443 端口：`ssh://git@ssh.github.com:443/chenxz83/my-meteor-addon.git`（仓库重命名后 SSH 旧地址会 301 跳转，建议 `git remote set-url` 更新）
 - 推送：`git push -u origin master`（在用户自己电脑上执行；CI 会因 GITHUB_SHA 自动注入 commit.txt）
 
 ## 沙箱注意事项

@@ -6,8 +6,8 @@
 
 | 目录 | Minecraft | Meteor Client |
 |------|-----------|---------------|
-| `crystal-aura-plus/` | **1.21.11** | 1.21.11 |
-| `crystal-aura-plus-1.21.8/` | **1.21.8** | 1.21.8 |
+| `my-meteor-addon/` | **1.21.11** | 1.21.11 |
+| `my-meteor-addon-1.21.8/` | **1.21.8** | 1.21.8 |
 
 ## 模块列表
 
@@ -72,7 +72,7 @@
 
 1. 安装 Minecraft（对应版本）+ Fabric Loader
 2. 安装对应版本的 Meteor Client
-3. 把 `crystal-aura-plus-*.jar` 放入 `.minecraft/mods`
+3. 把 `my-meteor-addon-*.jar` 放入 `.minecraft/mods`
 4. 启动游戏，模块出现在 Meteor GUI 的对应分类中
 
 ## 下载

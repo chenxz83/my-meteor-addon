@@ -28,13 +28,13 @@
 # Windows: gradlew.bat build
 ```
 
-生成的 jar 位于 `build/libs/crystal-aura-plus-1.0.0.jar`。
+生成的 jar 位于 `build/libs/my-meteor-addon-1.0.0.jar`。
 
 ## 安装
 
 1. 安装 [Minecraft 1.21.11 + Fabric Loader](https://fabricmc.net/)。
 2. 将 [Meteor Client 1.21.11](https://meteorclient.com/) 放入 `mods` 目录。
-3. 将本模块的 jar（`crystal-aura-plus-1.0.0.jar`）也放入 `mods` 目录。
+3. 将本模块的 jar（`my-meteor-addon-1.0.0.jar`）也放入 `mods` 目录。
 4. 启动游戏，在 Meteor Client 的 Combat 分类中找到 **水晶光环+**。
 
 ## 技术说明
