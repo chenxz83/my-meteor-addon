@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "crystal-aura-plus",
+  "version": "1.0.0",
+  "name": "\u6c34\u6676\u5149\u73af+ (Crystal Aura Plus)",
+  "description": "\u589e\u5f3a\u7248\u6c34\u6676\u5149\u73af\u3002\u57fa\u4e8e Meteor Client \u6c34\u6676\u5149\u73af (Crystal Aura) \u7684\u589e\u5f3a\u6a21\u5757\uff0c\u65b0\u589e\u5355\u76ee\u6807\u805a\u7126\u6a21\u5f0f\u3001\u76ee\u6807\u4f18\u5148\u7ea7\u3001\u667a\u80fd\u653e\u7f6e\uff08\u8df3\u8fc7\u65e0\u654c\u5e27\u76ee\u6807\uff09\u4ee5\u53ca HUD \u76ee\u6807\u4f24\u5bb3/\u8840\u91cf\u663e\u793a\u3002",
+  "authors": [
+    "chenxz_Minecraft"
+  ],
+  "license": "GPL-3.0",
+  "icon": "assets/crystalauraplus/icon.png",
+  "environment": "client",
+  "accessWidener": "crystal-aura-plus.accesswidener",
+  "mixins": [
+    "crystal-aura-plus.mixins.json"
+  ],
+  "entrypoints": {
+    "meteor": [
+      "com.bettercpvp.crystalauraplus.CrystalAuraPlusAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "0,0,170",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.18.2",
+    "meteor-client": "*"
+  }
+}

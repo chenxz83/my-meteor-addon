@@ -1,0 +1,12 @@
+# Gradle cache (local machine only)
+.gradle-home/
+
+# Upstream reference sources and archives (not part of this project)
+meteor-client-1.21.11/
+meteor-addon-template-master/
+*.zip
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store

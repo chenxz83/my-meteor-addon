@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "com.bettercpvp.crystalauraplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TitleScreenCreditsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
